@@ -16,16 +16,31 @@ body {
 }
 .title {
     cursor: pointer;
+    padding: 5px;
+    border: 2px green;
 }
 .drop-down {
     background-color: lightcoral;
     margin: auto;
     width: 70%;
     padding: 20px 20px;
+    transform: translateY(50px);
+    border-radius: 10px;
+}
+.drop-down .title::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    right: 80px;
+    font-size: 30px;
 }
 .content {
     display: none;
 }
 .title.active + .content {
     display: block;
+    border-bottom: 5px black;
+}
+.title.active::before {
+    content: '-'
 }
