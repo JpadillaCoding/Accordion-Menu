@@ -12,24 +12,25 @@ header {
     padding: 10px;
 }
 body {
-    background-color: lightblue;
+    background-color: white;
 }
 .title {
     cursor: pointer;
     padding: 5px;
-    border: 2px green;
+    border-top: 1px solid white;
 }
 .drop-down {
-    background-color: lightcoral;
+    background-color: rgba(0, 0, 0, 0.75);
     margin: auto;
     width: 70%;
     padding: 20px 20px;
     transform: translateY(50px);
     border-radius: 10px;
+    color: white;
 }
 .drop-down .title::before {
     content: '+';
-    color: black;
+    color: white;
     position: absolute;
     right: 80px;
     font-size: 30px;
@@ -39,8 +40,13 @@ body {
 }
 .title.active + .content {
     display: block;
-    border-bottom: 5px black;
+    border-bottom: 10px black;
+    background-color: white;
+    color: black;
 }
 .title.active::before {
     content: '-'
+}
+img {
+    width: 200px;
 }
