@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -10,14 +9,16 @@ header {
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
     padding: 10px;
+    text-align: center;
 }
 body {
     background-color: white;
 }
 .title {
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
     border-top: 1px solid white;
+    text-align: left;
 }
 .drop-down {
     background-color: rgba(0, 0, 0, 0.75);
@@ -29,23 +30,25 @@ body {
     color: white;
 }
 .drop-down .title::before {
-    content: '+';
+    content: '\002b';
     color: white;
     position: absolute;
-    right: 80px;
+    right: 30px;
     font-size: 30px;
+    transition: transform .2s ease-out;
 }
 .content {
-    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
 }
 .title.active + .content {
-    display: block;
-    border-bottom: 10px black;
+    height: 220px;
     background-color: white;
     color: black;
 }
-.title.active::before {
-    content: '-'
+.title.active::before{
+    transform: rotate(45deg);
 }
 img {
     width: 200px;
