@@ -39,7 +39,7 @@ body {
 }
 .content {
     height: 0;
-    overflow: hidden;
+    overflow: scroll;
     transition: .5s;
     color: black;
     text-align: center;
