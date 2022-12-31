@@ -1,7 +1,7 @@
 # Accordion menu
 A demonstration of an accordion menu by using Javascript for DOM control. The example features options to see images and lorem ipsum of some of the largest objects in the universe.
     
-## Running the program
+## View the Demo
     
 Visit my github [page](https://jpadillacoding.github.io/Accordion-Menu/)!
 
@@ -18,4 +18,5 @@ Visit my github [page](https://jpadillacoding.github.io/Accordion-Menu/)!
 ## Acknowledgments
 
   - Hat tip to anyone whose code is used
+  - [Badges/shields](https://github.com/alexandresanlim/Badges4-README.md-Profile)
 
