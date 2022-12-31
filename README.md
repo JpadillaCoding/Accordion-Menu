@@ -3,7 +3,7 @@ A demonstration of an accordion menu by using Javascript for DOM control. The ex
     
 ## Running the program
     
-Visit my github [page]()!
+Visit my github [page](https://jpadillacoding.github.io/Accordion-Menu/)!
 
 
 ## Built With

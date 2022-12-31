@@ -6,7 +6,7 @@
     padding: 0;
 }
 header {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgb(64 64 64);
     color: white;
     padding: 10px;
     text-align: center;
@@ -21,7 +21,7 @@ body {
     text-align: left;
 }
 .drop-down {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgb(64 64 64);
     margin: auto;
     width: 70%;
     padding: 20px 20px;
@@ -41,8 +41,9 @@ body {
     height: 0;
     overflow: hidden;
     transition: .5s;
-    background-color: white;
+    background-color: ;
     color: black;
+    text-align: center;
 }
 .title.active + .content {
     height: 220px;
@@ -52,4 +53,6 @@ body {
 }
 img {
     width: 200px;
+    border-radius: 5px;
+    border: 1px white solid;
 }
