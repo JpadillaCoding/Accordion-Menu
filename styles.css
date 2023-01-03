@@ -12,13 +12,17 @@ header {
     text-align: center;
 }
 body {
-    background-color: white;
+    background-image: url('pictures/Universe.jpeg');
+    background-size: cover;
 }
 .title {
     cursor: pointer;
     padding: 10px;
     border-top: 1px solid white;
     text-align: left;
+}
+.title :hover{
+    font-size: 30px;
 }
 .drop-down {
     background-color: rgb(100 100 100);
@@ -41,11 +45,11 @@ body {
     height: 0;
     overflow: scroll;
     transition: .5s;
-    color: black;
+    color: white;
     text-align: center;
 }
 .title.active + .content {
-    height: 220px;
+    height: 230px;
 }
 .title.active::before{
     transform: rotate(45deg);
@@ -55,3 +59,17 @@ img {
     border-radius: 5px;
     border: 1px white solid;
 }
+#section1 {
+    background-image: url('pictures/uyscuti.jpeg');
+    border-radius: 5px;
+}
+#section2 {
+    background-image: url('pictures/ton618.jpeg');
+    border-radius: 5px;
+}
+#section3 {
+    background-image: url('pictures/Shapley.jpeg');
+    border-radius: 5px;
+}
+
+
